@@ -258,7 +258,7 @@ function checkWinCondition() {
             msg = " O jogador 1 venceu!";
         } else if (winner == 'o') {
             msg = " O jogador 2 venceu!";
-            scoreboardO.textContent = parseInt(scoreboardY.textContent) + 1;
+            scoreboardO.textContent = parseInt(scoreboardO.textContent) + 1;
         } else {
             msg = "Deu Velha!"
         }
